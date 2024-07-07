@@ -101,7 +101,7 @@
         for(let i=1;i<=val;i++){
             random=Math.floor(Math.random()*6)+1
             values.push(random)
-            images.push(`<img src="img/${random}.png">`)
+            images.push(`<img src="${random}.png">`)
         }
         document.getElementById("res").textContent=`Dice : ${values.join(",")}`
         let ig=document.getElementById("images")
